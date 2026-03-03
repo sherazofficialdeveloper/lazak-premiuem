@@ -19,7 +19,7 @@ export default function Navbar({ cartCount, favoritesCount, onOpenCart, onOpenFa
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0 flex items-center gap-2">
-           <img src="public/LA-Logo.png" alt="" className="w-20"/>
+           <img src="/LA-Logo.png" alt="" className="w-20"/>
              </Link>
 
           {/* Desktop Navigation */}
